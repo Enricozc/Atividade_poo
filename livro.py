@@ -8,9 +8,5 @@ class Livro(ItemBiblioteca):
 
     def exibir_detalhes(self):
         status = "Disponível" if self.get_disponivel() else "Emprestado"
-        print(f"[Livro] Código: {self.get_codigo()}"
-              f"Título:{self.get_titulo()} "
-              f"Autor: {self.__autor}"
-              f"Páginas:{self.__num_paginas} "
-              f"Ano: {self.get_ano()} "
-              f"Status: {status}")
+        print(f"[Livro] Código: {self.get_codigo()}"f"Título:{self.get_titulo()} "f"Autor: {self.__autor}"f"Páginas:{self.__num_paginas} "f"Ano: {self.get_ano()} "f"Status: {status}")
+        
